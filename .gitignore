@@ -1,0 +1,16 @@
+# secrets
+.env
+*.pem
+
+# python
+venv/
+__pycache__/
+*.pyc
+
+# node
+node_modules/
+
+# confidential MLS data: never push
+sql/*.sql
+*.sql.gz
+openclaw/
